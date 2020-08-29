@@ -8,3 +8,7 @@ Lesson 1:
 - Numbers and Strings
 - Variables  
 - Lists
+
+Lesson 2: 
+- list, dicts, tuples
+- string substitution
