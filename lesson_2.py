@@ -44,5 +44,5 @@ years = [1975, 2010, 2007, 2008, 2011, 2008]
 
 
 
-for i in (0,1,2,3,4,5):
+for i in (0,1,2,3,4,5): # or range(0,5)
   print(greeting % (names[i], years[i]))
