@@ -30,19 +30,19 @@ for x in names:
 for x in names:
    print(greeting % x)
    
-
-# for loops
 for x in names:
-  print(greeting % x)
-  
+  print(greeting % x)  
 
-
-for x in names[1:2]:
-  print(greeting % x)
-  
-
-# 
-# for loops
 for x in (0,1):
   print(greeting % names[x])
    
+# print sentence that says
+# Happy _n_th birthday _name_
+greeting = 'Hello %s, nice to meet you. you were born in %s'
+names = ['David', 'Jens', 'Diza', 'Kalil', 'Anya', 'Emil']
+years = [1975, 2010, 2007, 2008, 2011, 2008]
+
+
+
+for i in (0,1,2,3,4,5):
+  print(greeting % (names[i], years[i]))
