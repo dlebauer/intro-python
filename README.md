@@ -1,9 +1,10 @@
 # Introduction to coding with Python
 
-Textbook: [Python for Kids](https://www.amazon.com/Python-Kids-Playful-Introduction-Programming/dp/1593274076)
+- Students Aged 9-12
+- We are loosely following the textbook: [Python for Kids](https://www.amazon.com/Python-Kids-Playful-Introduction-Programming/dp/1593274076)
+- Meet 1h/week
 
 ### Lesson 1: 
-
 
 - From Scratch to Python
 - Introduction to the Python console
@@ -12,6 +13,8 @@ Textbook: [Python for Kids](https://www.amazon.com/Python-Kids-Playful-Introduct
 - Variables  
 - Lists
 - Subsetting lists
+
+**class notes / code snpippets:** [lesson_1.py](https://github.com/dlebauer/intro-python/blob/master/lesson_1.py)
 
 **Homework:** Use variables and operators to solve one of your homework problems
 
@@ -25,7 +28,9 @@ Textbook: [Python for Kids](https://www.amazon.com/Python-Kids-Playful-Introduct
 - string substitution
 - for loops and indexing
 
-#### Lesson 2 Homework:
+**class notes / code snpippets:** [lesson_2.py](https://github.com/dlebauer/intro-python/blob/master/lesson_2.py)
+
+**Homework**:
 
 - Use a list, a for loop, and operators to solve the following:
 
