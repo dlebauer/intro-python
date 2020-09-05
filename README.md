@@ -1,8 +1,8 @@
 # Introduction to coding with Python
 
-- Students Aged 9-12
-- We are loosely following the textbook: [Python for Kids](https://www.amazon.com/Python-Kids-Playful-Introduction-Programming/dp/1593274076)
-- Meet 1h/week
+These are class notes for a group of elememtary and middle school students who have learned fundamentals of programming and are comfortable with the Scratch block-based programming language. They learned using Google's CSFirst platform. 
+
+We meet 1h/week, have minimal homework, and are starting by loosely following the textbook [Python for Kids](https://www.amazon.com/Python-Kids-Playful-Introduction-Programming/dp/1593274076). The primary goal is for the students to have fun. The curriculum will be guided by student interests.
 
 ### Lesson 1: 
 
