@@ -42,4 +42,6 @@ Hint: see the [lesson 2 notes](https://github.com/dlebauer/intro-python/blob/mas
 
 - review homework
   - solve homework w/ dictionaries
-- draw pictures with turtles?
+  - create vectors eggs and value
+  - plot eggs vs value
+- draw pictures with turtles? (or lesson 4)
