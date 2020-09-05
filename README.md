@@ -25,7 +25,8 @@ Textbook: [Python for Kids](https://www.amazon.com/Python-Kids-Playful-Introduct
 - string substitution
 - for loops and indexing
 
-**Homework:** 
+#### Lesson 2 Homework:
+
 - Use a list, a for loop, and operators to solve the following:
 
 On Monday you find a goose that lays diamond eggs. It lays the first egg that day, and you take it to a jewelery store. The owner says it is worth 3 million dollars! On Tuesday you find out that it lays one egg per day. Write a for loop program that tells you how much many diamonds you will have on Tuesday, Wednesday, Thursday, and Friday and how much they will be worth. Specifically, it will generate the following:
