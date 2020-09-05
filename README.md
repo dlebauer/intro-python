@@ -10,5 +10,6 @@ Lesson 1:
 - Lists
 
 Lesson 2: 
+- Intro to IDE: Trinket https://trinket.io/python3/9fa205cb41?runMode=console
 - list, dicts, tuples
 - string substitution
