@@ -46,3 +46,13 @@ years = [1975, 2010, 2007, 2008, 2011, 2008]
 
 for i in (0,1,2,3,4,5): # or range(0,5)
   print(greeting % (names[i], years[i]))
+
+## Homework hint
+# fix the order of days, the number of eggs, and the number of dollars
+statement = 'it is %s and you have %s diamond eggs worth %s million dollars'
+days      = ['Tuesday', 'maandag', 'donderdag', 'Friday', 'zaterdag']
+
+for i in (0, 1, 2, 3, 4):
+  eggs = i
+  dollars = i
+  print(statement % (days[i], eggs, dollars))
