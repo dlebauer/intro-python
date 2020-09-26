@@ -51,4 +51,13 @@ Hint: see the [lesson 2 notes](https://github.com/dlebauer/intro-python/blob/mas
   - solve homework w/ dictionaries
   - create vectors eggs and value
   - plot eggs vs value
-- draw pictures with turtles? (or lesson 4)
+- draw pictures with turtles
+
+## Lesson 4: 
+
+- add background image and change turtle image https://trinket.io/python/041c755b35
+
+## Lesson 5
+
+- how to write a function
+- control the turtle with up/down/left/right keys https://trinket.io/python/89f11c3faf
