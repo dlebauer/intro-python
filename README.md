@@ -66,3 +66,9 @@ Hint: see the [lesson 2 notes](https://github.com/dlebauer/intro-python/blob/mas
 
 - how to write a function
 - control the turtle with up/down/left/right keys https://trinket.io/python/89f11c3faf
+
+
+## Lesson 6: 
+
+- install IDE on your computer
+- start learning either arcade or pygame!
