@@ -55,6 +55,11 @@ Hint: see the [lesson 2 notes](https://github.com/dlebauer/intro-python/blob/mas
 
 ## Lesson 4: 
 
+- control the screen size
+- images: 
+   - find and download using google image search
+   - create and export using google drawings
+   - import into trinket
 - add background image and change turtle image https://trinket.io/python/041c755b35
 
 ## Lesson 5
