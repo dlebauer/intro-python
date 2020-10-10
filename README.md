@@ -72,3 +72,48 @@ Hint: see the [lesson 2 notes](https://github.com/dlebauer/intro-python/blob/mas
 
 - install IDE on your computer
 - start learning either arcade or pygame!
+
+Homework
+
+- Create a new project in PyCharm or Spyder 
+- save this image in a folder named 'images/' https://pygame-zero.readthedocs.io/en/stable/_images/alien.png
+- cut and paste this into your file named main.py :  https://raw.githubusercontent.com/dlebauer/intro-python/master/lesson_6_alien_run.py
+- Run the game. Try to click on the alien and see what happens.
+
+Answer the following questions:
+  1. what does += mean?
+  2. how does the alien get from the left side to the right side?
+  3. how does the alien get back from the right side to the left side?
+  4. how can you make the alien say 'Eek!'?
+
+
+## Lesson 7:
+
+Today we continued working through the pgzero tutorials - and learned how to get the alien to make a sound 
+Answers to questions in todays class
+
+1. How to change the background color?
+  - add `screen.fill((255, 87, 51))` to turn the background red
+  - The three numbers `(255, 87, 51)` refer to the red, green, and blue content on a scale of 0-255. 
+     - You can find the three numbers required for any particular by googling "color picker" https://www.google.com/search?q=color+picker
+     
+2. How to have the alien chase the mouse?
+   - Add `animate(alien, pos = pos, duration = 1, tween = 'bounce_end')` to the function `on_mouse_down`, e.g.:
+   
+```python
+def on_mouse_down(pos):
+    alien.angle = alien.angle_to(pos)
+    animate(alien, pos = pos, duration = 1, tween = 'bounce_end')
+    if alien.collidepoint(pos):
+        set_alien_hurt()
+    else:
+        print("You missed me!")
+```   
+
+This will make the alien go to wherever you clicked. If you want the alien to always follow the mouse, you can add this function:
+
+```
+def on_mouse_move(pos):
+    alien.angle = alien.angle_to(pos)
+    animate(alien, pos = pos, duration = 1, tween = 'bounce_end')
+```
