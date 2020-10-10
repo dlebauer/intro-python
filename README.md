@@ -90,14 +90,18 @@ Answer the following questions:
 ## Lesson 7:
 
 Today we continued working through the pgzero tutorials - and learned how to get the alien to make a sound 
-Answers to questions in todays class
+Answers to questions in todays class are below. 
 
-1. How to change the background color?
+
+1. What is that IDE some students were using that looked so much easier to use than PyCharm or Spyder?
+  - I just learned about this last week - it is called 'Mu' and it is designed specifically to make it easier to learn (by hiding all of the fancy stuff that PyCharm and Spyder offer). It is pre-configured for learning with pgzero!!!
+  - You can download it from https://codewith.mu/
+2. How to change the background color?
   - add `screen.fill((255, 87, 51))` to turn the background red
   - The three numbers `(255, 87, 51)` refer to the red, green, and blue content on a scale of 0-255. 
      - You can find the three numbers required for any particular by googling "color picker" https://www.google.com/search?q=color+picker
      
-2. How to have the alien chase the mouse?
+3. How to have the alien chase the mouse?
    - Add `animate(alien, pos = pos, duration = 1, tween = 'bounce_end')` to the function `on_mouse_down`, e.g.:
    
 ```python
@@ -117,3 +121,5 @@ def on_mouse_move(pos):
     alien.angle = alien.angle_to(pos)
     animate(alien, pos = pos, duration = 1, tween = 'bounce_end')
 ```
+
+Here is the code from the end of today's lesson that includes the sound response, red background, and following functionality: https://github.com/dlebauer/intro-python/blob/master/lesson_7_alien_eep.py 
