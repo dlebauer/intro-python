@@ -22,13 +22,10 @@ def draw():
 def update():
     alien.left += 20
     if alien.left > WIDTH:
-        alien.pos = (0, random.randint(1,1000))
+        alien.x = 0
+        alien.y = random.randint(1,1000)
 
-def on_mouse_down(pos):
-    if alien.collidepoint(pos):
-        print("Eek!")
-    else:
-        print("You missed me!")
+
 
 
 # last line
