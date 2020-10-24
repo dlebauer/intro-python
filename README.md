@@ -87,10 +87,13 @@ Answer the following questions:
   4. how can you make the alien say 'Eek!'?
 
 
-## Lesson 7:
+## Lesson 7: Sounds and Color
 
 Today we continued working through the pgzero tutorials - and learned how to get the alien to make a sound 
-Answers to questions in todays class are below. 
+
+Here is the code from the end of today's lesson that includes the sound response, red background, and following functionality: https://github.com/dlebauer/intro-python/blob/master/lesson_7_alien_eep.py 
+
+Answers to questions in todays class:
 
 1. What is that IDE some students were using that looked so much easier to use than PyCharm or Spyder?
   - I just learned about this last week - it is called 'Mu' and it is designed specifically to make it easier to learn (by hiding all of the fancy stuff that PyCharm and Spyder offer). It is pre-configured for learning with pgzero!!!
@@ -99,7 +102,7 @@ Answers to questions in todays class are below.
   - add `screen.fill((255, 87, 51))` to turn the background red
   - The three numbers `(255, 87, 51)` refer to the red, green, and blue content on a scale of 0-255. 
      - You can find the three numbers required for any particular by googling "color picker" https://www.google.com/search?q=color+picker
-     
+
 3. How to have the alien chase the mouse?
    - Add `animate(alien, pos = pos, duration = 1, tween = 'bounce_end')` to the function `on_mouse_down`, e.g.:
    
@@ -121,9 +124,8 @@ def on_mouse_move(pos):
     animate(alien, pos = pos, duration = 1, tween = 'bounce_end')
 ```
 
-Here is the code from the end of today's lesson that includes the sound response, red background, and following functionality: https://github.com/dlebauer/intro-python/blob/master/lesson_7_alien_eep.py 
 
-### Lesson 8
+### Lesson 8: Movement and animation
 
 We continued with position and movement
 
@@ -132,9 +134,10 @@ Highlights:
 * the `animate` function and learned about ["Inbetweening"](https://en.wikipedia.org/wiki/Inbetweening) - getting the sprite from point a to point b with flair
 * moving the alien with the mouse: `on_mouse_move` and `on_mouse_click`
 
+
 [Homework](https://github.com/dlebauer/intro-python/blob/master/lesson_8_homework.md)
 
-### Lesson 9
+### Lesson 9: Random movement
 
 * reviewed coordinates and speed
   * [background on cartesian and computer coordinate systems](https://fcs-cs.github.io/cs1-2018/modules/01-introduction/computer-coordinates/)
@@ -147,15 +150,24 @@ Highlights:
   * generate random colors
   * [here is the code!](https://github.com/dlebauer/intro-python/blob/master/lesson_9_random_position.py)
 
-### Lesson 10
+Homework:
+* replace your alien with a new picture. You can create one in google docs, e.g. by typing  
 
-Review  [cartesian (math) vs computer coordinates](https://fcs-cs.github.io/cs1-2018/modules/01-introduction/computer-coordinates/)
+### Lesson 10: Gravity
 
-**Gravity** is a fundamental component of platformer games
+* Review  [cartesian (math) vs computer coordinates](https://fcs-cs.github.io/cs1-2018/modules/01-introduction/computer-coordinates/)
+* Learn how to program **gravity** is a fundamental component of platformer games
 
-### Lesson 11
+### Lesson 11: Collisions and finding sprites
 
 **Collisions** what happens when two sprites collide? what happens when they get close to each other?
+* Lets find pgzero games on github and where to find new images and sounds
+  * Three sources:
+    * pgzero source code
+    * https://opengameart.org/
+    * google search --> images --> sprites 
+  * put images in your 'images' directory
+  * spritesheet unpacking, e.g. https://ezgif.com/sprite-cutter
 
 ### Future lessons
 
@@ -165,11 +177,13 @@ Review  [cartesian (math) vs computer coordinates](https://fcs-cs.github.io/cs1-
 * Python skills
   * importing functions from another file
   * finding answers in documentation
+  * finding answers and using examples online
 * Game components
   * change sprite size
-  * change background
+  * changing background and blitting
   * keep track of score
   * scrolling
+  * The flappy bird game: https://pygame-zero.readthedocs.io/en/stable/from-scratch.html
 
 ## Resources and Further Reading 
 
@@ -186,5 +200,9 @@ There are many others - IDLE is installed with Python by default, and is very si
 ### Tutorials and Examples
 
 * Pygame Zero documentation: https://pygame-zero.readthedocs.io/en/stable/index.html
+* [Example code for games](https://github.com/lordmauve/pgzero/tree/master/examples) in the Pgzero software source code
 * Richard Smith "Coding Games With Pygame Zero & Python (2nd ed)" https://electronstudio.github.io/pygame-zero-book
 * Coding Games in Python: A step by step visual guide to creating your own Python games" ([PDF](http://dl.booktolearn.com/ebooks2/computer/python/9781465473615_Coding_Games_in_Python_e382.pdf)) ([Amazon](https://www.amazon.com/Coding-Games-Python-DK/dp/1465473610))
+* [Beginning Games Programming with Pygame Zero](http://www.penguintutor.com/projects/docs/pgzero-game-worksheet.pdf)
+* Advanced (uses Pygame and classes, which aren't covered in this course)
+  * [Code the Classics Vol 1](https://www.mclibre.org/descargar/docs/revistas/wireframe-books/wireframe-books-code-the-classics-en-201912.pdf)
