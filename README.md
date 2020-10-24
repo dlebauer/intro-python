@@ -68,10 +68,10 @@ Hint: see the [lesson 2 notes](https://github.com/dlebauer/intro-python/blob/mas
 - control the turtle with up/down/left/right keys https://trinket.io/python/89f11c3faf
 
 
-## Lesson 6: 
+## Lesson 6: Getting started with Games!
 
 - install IDE on your computer
-- start learning either arcade or pygame!
+- start learning pgzero
 
 Homework
 
@@ -159,9 +159,17 @@ Review  [cartesian (math) vs computer coordinates](https://fcs-cs.github.io/cs1-
 
 ### Future lessons
 
-* Scrolling
-* change sprite size
-* keep track of score
+* CS skills
+  * emphasizing functions
+  * experimenting by combining what we know
+* Python skills
+  * importing functions from another file
+  * finding answers in documentation
+* Game components
+  * change sprite size
+  * change background
+  * keep track of score
+  * scrolling
 
 ## Resources and Further Reading 
 
