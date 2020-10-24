@@ -177,7 +177,7 @@ Review  [cartesian (math) vs computer coordinates](https://fcs-cs.github.io/cs1-
 
 These are all designed for learning: 
 
-* trinket.io (web based, a great place to start)
+* [trinket.io](https://trinket.io) This is web based, and comes pre-configured for use with Turtle and getting started with pgzero
 * [Mu Editor](https://codewith.mu/en/download) 
 * [PyCharm EDU](https://www.jetbrains.com/pycharm-edu/) has more features, more complicated but also more powerful.
 
