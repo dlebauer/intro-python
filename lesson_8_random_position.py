@@ -32,4 +32,4 @@ def on_mouse_down(pos):
 
 
 # last line
-pgzrun.go()# Write your code here :-)
+pgzrun.go()
