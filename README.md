@@ -92,7 +92,6 @@ Answer the following questions:
 Today we continued working through the pgzero tutorials - and learned how to get the alien to make a sound 
 Answers to questions in todays class are below. 
 
-
 1. What is that IDE some students were using that looked so much easier to use than PyCharm or Spyder?
   - I just learned about this last week - it is called 'Mu' and it is designed specifically to make it easier to learn (by hiding all of the fancy stuff that PyCharm and Spyder offer). It is pre-configured for learning with pgzero!!!
   - You can download it from https://codewith.mu/
@@ -123,3 +122,61 @@ def on_mouse_move(pos):
 ```
 
 Here is the code from the end of today's lesson that includes the sound response, red background, and following functionality: https://github.com/dlebauer/intro-python/blob/master/lesson_7_alien_eep.py 
+
+### Lesson 8
+
+We continued with position and movement
+
+Highlights:
+
+* the `animate` function and learned about ["Inbetweening"](https://en.wikipedia.org/wiki/Inbetweening) - getting the sprite from point a to point b with flair
+* moving the alien with the mouse: `on_mouse_move` and `on_mouse_click`
+* 
+[Homework](https://github.com/dlebauer/intro-python/blob/master/lesson_8_homework.md)
+
+### Lesson 9
+
+* reviewed coordinates and speed
+  * [background on cartesian and computer coordinate systems](https://fcs-cs.github.io/cs1-2018/modules/01-introduction/computer-coordinates/)
+* control alien1 with arrows and alien2 with wasd keys
+* Used of functions to separate control of aliens 1 and 2
+  * [this code shows the first `update2` function](https://github.com/dlebauer/intro-python/blob/master/lesson_9_two_aliens.py)
+* randomization
+  * return alien to a random position on the left
+  * randomize alien speed in X and Y
+  * generate random colors
+  * [here is the code!](https://github.com/dlebauer/intro-python/blob/master/lesson_9_random_position.py)
+
+### Lesson 10
+
+Review  [cartesian (math) vs computer coordinates](https://fcs-cs.github.io/cs1-2018/modules/01-introduction/computer-coordinates/)
+
+**Gravity** is a fundamental component of platformer games
+
+### Lesson 11
+
+**Collisions** what happens when two sprites collide? what happens when they get close to each other?
+
+### Future lessons
+
+* Scrolling
+* change sprite size
+* keep track of score
+
+## Resources and Further Reading 
+
+### Python Editors
+
+These are all designed for learning: 
+
+* trinket.io (web based, a great place to start)
+* [Mu Editor](https://codewith.mu/en/download) 
+* [PyCharm EDU](https://www.jetbrains.com/pycharm-edu/) has more features, more complicated but also more powerful.
+
+There are many others - IDLE is installed with Python by default, and is very simple. Spyder is also a popular open source editor.
+
+### Tutorials and Examples
+
+* Pygame Zero documentation: https://pygame-zero.readthedocs.io/en/stable/index.html
+* Richard Smith "Coding Games With Pygame Zero & Python (2nd ed)" https://electronstudio.github.io/pygame-zero-book
+* Coding Games in Python: A step by step visual guide to creating your own Python games" ([PDF](http://dl.booktolearn.com/ebooks2/computer/python/9781465473615_Coding_Games_in_Python_e382.pdf)) ([Amazon](https://www.amazon.com/Coding-Games-Python-DK/dp/1465473610))
