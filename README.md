@@ -169,6 +169,8 @@ Homework:
   * put images in your 'images' directory
   * spritesheet unpacking, e.g. https://ezgif.com/sprite-cutter
 
+### Lesson 12: Animating sprites
+
 ### Future lessons
 
 * CS skills
@@ -181,6 +183,7 @@ Homework:
 * Game components
   * change sprite size
   * changing background and blitting
+  * [animating a sprite](http://www.penguintutor.com/projects/docs/pgzero-game-worksheet.pdf)
   * keep track of score
   * scrolling
   * The flappy bird game: https://pygame-zero.readthedocs.io/en/stable/from-scratch.html
