@@ -131,7 +131,7 @@ Highlights:
 
 * the `animate` function and learned about ["Inbetweening"](https://en.wikipedia.org/wiki/Inbetweening) - getting the sprite from point a to point b with flair
 * moving the alien with the mouse: `on_mouse_move` and `on_mouse_click`
-* 
+
 [Homework](https://github.com/dlebauer/intro-python/blob/master/lesson_8_homework.md)
 
 ### Lesson 9
