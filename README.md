@@ -162,6 +162,7 @@ Highlights:
 <details>
   <summary>Details</summary>
 
+* [Video](https://youtu.be/GrgXd7f-tfM)
 * reviewed coordinates and speed
   * [background on cartesian and computer coordinate systems](https://fcs-cs.github.io/cs1-2018/modules/01-introduction/computer-coordinates/)
 * control alien1 with arrows and alien2 with wasd keys
@@ -182,7 +183,7 @@ Highlights:
 * Learn how to program **gravity** is a fundamental component of platformer games. [`gravity.py` code from today](https://github.com/dlebauer/intro-python/blob/master/lesson_10_gravity.py)
 
 * [Class notes](https://github.com/dlebauer/intro-python/blob/master/lesson_10_gravity.md) and 
-
+* [Video](https://youtu.be/_n2BhygIrcs) 
 * [homework](https://github.com/dlebauer/intro-python/blob/master/lesson_10_gravity.md#lesson-10-homework)
 
 ### Lesson 11: Animating Sprites and Collisions
