@@ -6,6 +6,9 @@ We meet 1h/week, have minimal homework, and are starting by loosely following th
 
 ### Lesson 1: 
 
+<details>
+  <summary>Details</summary>
+
 - From Scratch to Python
 - Introduction to the Python console
 - Operators +,-,*,/,>,<
@@ -17,20 +20,18 @@ We meet 1h/week, have minimal homework, and are starting by loosely following th
 **class notes / code snpippets:** [lesson_1.py](https://github.com/dlebauer/intro-python/blob/master/lesson_1.py)
 
 **Homework:** Use variables and operators to solve one of your homework problems
+</details>
+
 
 ### Lesson 2: 
 
-- Intro to the Interactive Development Environments (IDE)
-  - a text file and a console
-  - we will start with a blank 'Trinket' https://trinket.io/python3/9fa205cb41?runMode=console
-- lists
-- the `print` statement
-- string substitution
-- for loops and indexing
+* Introducing IDEs
+* lists, print, string substitution
+* for loops, indexing
+* class notes / code snpippets: [lesson_2.py](https://github.com/dlebauer/intro-python/blob/master/lesson_2.py)
 
-**class notes / code snpippets:** [lesson_2.py](https://github.com/dlebauer/intro-python/blob/master/lesson_2.py)
-
-**Homework**:
+<details>
+  <summary>Homework</summary>
 
 - Use a list, a for loop, and operators to solve the following:
 
@@ -45,7 +46,12 @@ On Friday you have 4 eggs worth 12 million dollars
 
 Hint: see the [lesson 2 notes](https://github.com/dlebauer/intro-python/blob/master/lesson_2.py)
 
-### Lesson 3:
+</details>
+
+### Lesson 3: Dictionaries and vectors
+
+<details>
+  <summary>Details</summary>
 
 - review homework
   - solve homework w/ dictionaries
@@ -53,7 +59,12 @@ Hint: see the [lesson 2 notes](https://github.com/dlebauer/intro-python/blob/mas
   - plot eggs vs value
 - draw pictures with turtles
 
-## Lesson 4: 
+</details>
+
+## Lesson 4: Finding and using images
+
+<details>
+  <summary>Details</summary>
 
 - control the screen size
 - images: 
@@ -62,8 +73,9 @@ Hint: see the [lesson 2 notes](https://github.com/dlebauer/intro-python/blob/mas
    - import into trinket
 - add background image and change turtle image https://trinket.io/python/041c755b35
 
-## Lesson 5
+</details>
 
+## Lesson 5: writing functions, controlling turtle with arrow keys
 - how to write a function
 - control the turtle with up/down/left/right keys https://trinket.io/python/89f11c3faf
 
@@ -72,6 +84,9 @@ Hint: see the [lesson 2 notes](https://github.com/dlebauer/intro-python/blob/mas
 
 - install IDE on your computer
 - start learning pgzero
+
+<details>
+  <summary>Homework</summary>
 
 Homework
 
@@ -85,11 +100,14 @@ Answer the following questions:
   2. how does the alien get from the left side to the right side?
   3. how does the alien get back from the right side to the left side?
   4. how can you make the alien say 'Eek!'?
-
+</details>
 
 ## Lesson 7: Sounds and Color
 
 Today we continued working through the pgzero tutorials - and learned how to get the alien to make a sound 
+
+<details>
+  <summary>Details</summary>
 
 Here is the code from the end of today's lesson that includes the sound response, red background, and following functionality: https://github.com/dlebauer/intro-python/blob/master/lesson_7_alien_eep.py 
 
@@ -123,7 +141,7 @@ def on_mouse_move(pos):
     alien.angle = alien.angle_to(pos)
     animate(alien, pos = pos, duration = 1, tween = 'bounce_end')
 ```
-
+</details>
 
 ### Lesson 8: Movement and animation
 
@@ -134,10 +152,15 @@ Highlights:
 * the `animate` function and learned about ["Inbetweening"](https://en.wikipedia.org/wiki/Inbetweening) - getting the sprite from point a to point b with flair
 * moving the alien with the mouse: `on_mouse_move` and `on_mouse_click`
 
-
 [Homework](https://github.com/dlebauer/intro-python/blob/master/lesson_8_homework.md)
 
 ### Lesson 9: Random movement
+
+* review coordinate systems and speed
+* control two sprites
+
+<details>
+  <summary>Details</summary>
 
 * reviewed coordinates and speed
   * [background on cartesian and computer coordinate systems](https://fcs-cs.github.io/cs1-2018/modules/01-introduction/computer-coordinates/)
@@ -150,15 +173,20 @@ Highlights:
   * generate random colors
   * [here is the code!](https://github.com/dlebauer/intro-python/blob/master/lesson_9_random_position.py)
 
-Homework:
-* replace your alien with a new picture. You can create one in google docs, e.g. by typing  
+</details>
 
 ### Lesson 10: Gravity
 
-* Review  [cartesian (math) vs computer coordinates](https://fcs-cs.github.io/cs1-2018/modules/01-introduction/computer-coordinates/)
-* Learn how to program **gravity** is a fundamental component of platformer games
 
-### Lesson 11: Collisions and finding sprites
+* Review  [cartesian (math) vs computer coordinates](https://fcs-cs.github.io/cs1-2018/modules/01-introduction/computer-coordinates/)
+* Learn how to program **gravity** is a fundamental component of platformer games. [`gravity.py` code from today](https://github.com/dlebauer/intro-python/blob/master/lesson_10_gravity.py)
+
+* [Class notes](https://github.com/dlebauer/intro-python/blob/master/lesson_10_gravity.md) and 
+
+* [homework](https://github.com/dlebauer/intro-python/blob/master/lesson_10_gravity.md#lesson-10-homework)
+
+### Lesson 11: Animating Sprites and Collisions
+
 
 **Collisions** what happens when two sprites collide? what happens when they get close to each other?
 * Lets find pgzero games on github and where to find new images and sounds
