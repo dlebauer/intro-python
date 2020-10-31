@@ -140,7 +140,7 @@ def update_pipes():
 
 </details>
 
-### 3. Create a Gravity variable that depends on Speed
+### 3. Create a Gravity variable that depends on speed
 
 - similar to `SPEED` make bird velocity in y direction change by `GRAVITY`
 - but, make `GRAVITY` depend on `SPEED` so that when you change SPEED it changes both gravity and pipe speed
@@ -148,14 +148,43 @@ def update_pipes():
 
 <details>
   <summary>Hint </summary>
+    
 `GRAVITY = SPEED * 0.2` at the top of the program
-
 </details>
 
 
 <details>
   <summary>Another hint</summary>
-  - hint: change `bird.vy += 0.2`
-  
+    
+change `bird.vy += 0.2`  
 </details>
 
+### 4: Make bird die when it hits a pipe
+
+
+Step 1: change image to birddead
+
+<details>
+  <summary>Hint</summary>
+
+this goes in `update_bird()`:
+
+```python
+    if bird.colliderect(pipe_top) or bird.colliderect(pipe_bottom):
+        bird.image = 'birddead'
+```
+</details>
+
+Step 2: create a `bird.dead` variable, and set to `True` at top of program, set to `False` after `bird.collidedirect` above
+
+
+<details>
+  <summary>Hint</summary>
+```python
+    if bird.colliderect(pipe_top) or bird.colliderect(pipe_bottom):
+        bird.dead = False
+        bird.image = 'birddead'
+```
+</details>
+
+Step 3: reset pipes and put bird back to zero if `bird.dead`
