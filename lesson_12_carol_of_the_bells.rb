@@ -86,4 +86,3 @@ with_bpm 120 do
   play :g5
   sleep 1.5
 end
-```
