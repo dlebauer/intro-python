@@ -223,14 +223,19 @@ end
 - write out musical phrases:
 <details>
   <summary>Details</summary>
-  
-![Danny boy intro](oh_danny_boy.jpeg)
+
+![Danny boy intro](images/oh_danny_boy.jpeg)
+
+use variables and the `play_pattern_timed` function
 
 ```rb
-    play_pattern_timed [:fs4, :g4, :a4, :b4],
-      [e, e, e, dq]
+e = 0.5  # eigth note
+dq = 1.5 # dotted quarter
+play_pattern_timed [:fs4, :g4, :a4, :b4],
+    [e, e, e, dq]
 ```
 </details>
+
 ### Lesson n: Animating Sprites and Collisions
 
 
