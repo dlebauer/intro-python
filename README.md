@@ -176,6 +176,8 @@ Highlights:
 
 </details>
 
+
+
 ### Lesson 10: Gravity
 
 
@@ -186,7 +188,40 @@ Highlights:
 * [Video](https://youtu.be/_n2BhygIrcs) 
 * [homework](https://github.com/dlebauer/intro-python/blob/master/lesson_10_gravity.md#lesson-10-homework)
 
-### Lesson 11: Animating Sprites and Collisions
+
+### Lesson 11 & 12: Music with [Sonic Pi](https://sonic-pi.net/)
+
+Mixing things up with music. 
+- learn a new language (Ruby)
+- revisit familiar concepts (variables, loops, functions)
+  - for loop example: [Carol of the Bells](https://github.com/dlebauer/intro-python/blob/master/lesson_12_carol_of_the_bells.rb)
+  - functions and more: [Danny Boy Sandbox](https://github.com/dlebauer/intro-python/blob/master/lesson_12_danny_boy.rb)
+- make music!!!
+
+
+- defining a chord as a function 
+<details>
+  <summary>Details</summary>
+
+ (note: Sonic Pi has a `chord` function, e.g. `play chord(:E3, :minor)` but here we are defining an ad-hoc chord)
+```rb
+# lets make a chord
+define :dada do
+  play :d3
+  play :a3
+  play :d2
+  play :a2
+  sleep 1
+end
+
+3.times do
+  dada
+end
+```
+</details>
+
+
+### Lesson n: Animating Sprites and Collisions
 
 
 **Collisions** what happens when two sprites collide? what happens when they get close to each other?
@@ -198,7 +233,7 @@ Highlights:
   * put images in your 'images' directory
   * spritesheet unpacking, e.g. https://ezgif.com/sprite-cutter
 
-### Lesson 12: Animating sprites
+### Lesson n+1: Animating sprites
 
 ### Future lessons
 
@@ -228,6 +263,11 @@ These are all designed for learning:
 * [PyCharm EDU](https://www.jetbrains.com/pycharm-edu/) has more features, more complicated but also more powerful.
 
 There are many others - IDLE is installed with Python by default, and is very simple. Spyder is also a popular open source editor.
+
+### Sonic Pi
+
+* download with editor here: [Sonic Pi](https://sonic-pi.net/)
+* has great built in documentation
 
 ### Tutorials and Examples
 
