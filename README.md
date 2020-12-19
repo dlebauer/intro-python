@@ -224,16 +224,28 @@ end
 <details>
   <summary>Details</summary>
 
+Lets implement the first four notes from Danny Boy:
+
 ![Danny boy intro](images/oh_danny_boy.jpeg)
 
-use variables and the `play_pattern_timed` function
+Here we will use the `play_pattern_timed` function
 
 ```rb
-e = 0.5  # eigth note
-dq = 1.5 # dotted quarter
+play_pattern_timed [:fs4, :g4, :a4, :b4],
+    [0.5, 0.5, 0.5, 1.5]
+```
+
+Make it easier with variables to define the type (length) of the notes. Here we have three eighth (e) notes and one dotted quarter (dq)
+
+```rb
+e = 0.5
+dq = 1.5
 play_pattern_timed [:fs4, :g4, :a4, :b4],
     [e, e, e, dq]
 ```
+
+See more in the [Danny Boy Sandbox](https://github.com/dlebauer/intro-python/blob/master/lesson_12_danny_boy.rb)
+
 </details>
 
 ### Lesson n: Animating Sprites and Collisions
