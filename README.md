@@ -220,7 +220,17 @@ end
 ```
 </details>
 
+- write out musical phrases:
+<details>
+  <summary>Details</summary>
+  
+![Danny boy intro](oh_danny_boy.jpeg)
 
+```rb
+    play_pattern_timed [:fs4, :g4, :a4, :b4],
+      [e, e, e, dq]
+```
+</details>
 ### Lesson n: Animating Sprites and Collisions
 
 
